@@ -1,0 +1,135 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;\f1\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red53\green53\blue53;\red0\green0\blue0;\red63\green105\blue30;
+}
+{\*\expandedcolortbl;;\cssrgb\c27059\c27059\c27059;\csgenericrgb\c0\c0\c0;\csgenericrgb\c24706\c41176\c11765;
+}
+{\info
+{\keywords cursorLocation=19, fitsPagesWidth=1}}\margl1008\margr1008\margt1008\vieww18820\viewh14540\viewkind1\viewscale124
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl360\slmult1\pardirnatural\qc\partightenfactor0
+
+\f0\b\fs26 \cf0 Manual Explanation
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl360\slmult1\pardirnatural\partightenfactor0
+\cf0 \
+This is the assignment for 
+\b Week4 RESTful Service\
+
+\b0 \
+There are 13 methods with (GET, PUT, POST DELETE) implemented\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf2 \
+	\cf3  
+\i hello
+\i0 ();\cf4  // displays welcome service running\cf3 \
+        
+\i nrOfProducts
+\i0 ();\cf4  // displays number of products\cf3 \
+        
+\i getProducts
+\i0 (4); \cf4 // gets a specific product with specific id\cf3 \
+        
+\i prodNameByQuery
+\i0 ();  \cf4 // gets a product ny name using query\cf3 \
+        
+\i productNameByPath
+\i0 (); \cf4 // gets a product ny name using path\cf3 \
+        
+\i updateProductStockInfo
+\i0 (); \cf4 // updates a product account\cf3 \
+        
+\i createStock
+\i0 (); \cf4 // creates a product\cf3 \
+        
+\i createProductObject
+\i0 (productOne);  \cf4 // creates a product object\cf3 \
+        
+\i returnAllProducts
+\i0 ();\cf4  // returns all list of products\cf3 \
+\cf4 //\cf3         downLoadFIle(); \cf4 // downloading files\cf3 \
+\cf4 // \cf3        uploadFile(); \cf4 // uploading files\cf3 \
+        //deleteProductNameByQuery(); \cf4 // deletes a product by name using query\cf3 \
+        
+\i deleteProductNameByPath
+\i0 (); \cf4 // deletes a product by name using path\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl360\slmult1\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 \
+// Implementations\
+// Analysis by the BURP Messages was done, own made classes, returns list<Products>,  both JSON(benson) and XML Serialization, Own Custom response. \{The last 2 requirements wasn\'92t implemented i.e Own Serialization, Other Client maybe not C#\}\
+\
+I added something new features learned which is downloading and uploading a file \'93pdf\'94\
+\
+The Client implements all the above methods and can be viewed through the URL or the Client Terminal;\
+\
+Consist of 
+\b Service
+\b0  and 2 Clients 1 
+\b Console
+\b0  and 1 
+\b GUI
+\b0 \
+\
+The Folder 
+\b RESTfulServices
+\b0  contains the 
+\b RESTServer
+\b0  (server) & the 
+\b ClientSide
+\b0  (Client) Project in 1 single project\
+it is a Console Application Administration displaying information about the REST-WebShop with Products and Stocks.\
+To run the project: on button run you can select from drop down run - Server (
+\b WebShop
+\b0 ) and when server is hosted you can now select run(
+\b wenStoreClient
+\b0 ) which is the Client.\
+\
+The 
+\b RESTServer
+\b0  used to Host the Service\
+The 
+\b ClientSide
+\b0  is the Client who tries to connect to the server\
+\
+The Folder 
+\b ConsumerCLient
+\b0  is another Client with a GUI form implementing some CRUD operations of GetshopName (
+\b GET
+\b0 ), GetProductList (
+\b GET
+\b0  \'93All products returns ArrayList<product>), GetProductCount (
+\b GET
+\b0  returns the count), CreateProduct (
+\b POST
+\b0 ), UpdateProduct (
+\b PUT
+\b0 ), DeleteProduct (
+\b DELETE
+\b0 ) a product with id already inputed\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl360\slmult1\pardirnatural\qc\partightenfactor0
+\cf0   
+\b CONSOLE APPLICATION
+\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl360\slmult1\pardirnatural\partightenfactor0
+\cf0 All methods have been used plus extra methods included \
+also custom error is being displayed \'93works and implemented for query parameter with id value 
+\b 9
+\b0 \'94 which doesn\'92t exist of course \
+\
+// Method update works for the GUI but not for the console reason because form parameter is being used as input than the console which will require me to input already the values but with the GUI form I made use of the textfield to always update any stock.\
+\
+Also if after first run you try and rerun the client console you get two display custom error implemented for create since product is already created and attempting to create a new which is not possible.\
+also the method Upload and Download is commented out but if uncommented the client can download or upload any PDF documents. thanks to the serialization XML/JSON used\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl360\slmult1\pardirnatural\qc\partightenfactor0
+\cf0  
+\b GUI APPLICATION\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl360\slmult1\pardirnatural\partightenfactor0
+\cf0 \
+
+\b0 For this application since @Singleton is used any deleted, or created product done from the console is already updated so to be able to use it as fresh the server will need to be restarted and all function works the same but also if the console implements some methods its also updates via the GUI form if called, GUI implements the GET, DELETE, PUT and POST\
+the update functions by updating a stocks name but id stays the same whereas the rest remains the same.\
+\
+The update in the GUI works by Updating the name of the stock using the id. the rest works normal }

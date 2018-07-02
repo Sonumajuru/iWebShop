@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" type="JAX-WS">
+    <properties version="Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/aopalliance-repackaged-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/cdi-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/el-api-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/hk2-api-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/hk2-locator-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/hk2-utils-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/javassist-3.22.0-CR2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/javax.inject-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/javax.json-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/javax.json-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/javax.json.bind-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/javax.servlet-api-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/javax.ws.rs-api-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jaxb-api-2.2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jersey-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jersey-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jersey-container-servlet-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jersey-container-servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jersey-hk2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jersey-media-jaxb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jersey-media-json-binding.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jersey-media-sse.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jersey-server.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/jsr250-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/persistence-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/yasson-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/org.osgi.core-4.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/RESTServer/lib/org.osgi.core-4.2.0.jar!/OSGI-OPT/src" />
+    </SOURCES>
+  </library>
+</component>
