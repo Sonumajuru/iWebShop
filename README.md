@@ -1,0 +1,2 @@
+# iWebShop
+Assignment iGiftcards is a webshop made by KorsIt. On our website we sell a lot of different giftcards, telephone cards and game keys.  To keep our products up to date, we want to have a new Product API. This system will can be used to retrieve products, write products to our database and search for products. The database connection will be added to the project later; for now we’ll use a static data placeholder
